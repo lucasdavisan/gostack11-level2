@@ -1,0 +1,19 @@
+{
+  "name": "gostack11-level2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/lucasdavisan/gostack11-level2.git",
+  "author": "Lucas Davi <lucasdavisan@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "dev:server": "ts-node-dev --transpileOnly --ignore-watch node_modules src/server.ts"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.6",
+    "typescript": "^3.8.3"
+  }
+}
